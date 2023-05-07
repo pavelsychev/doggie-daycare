@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">  
+    <title>Doggie daycare</title>
+  </head>
+<body>
+
+  <!----------header start ---------->
+   <div class="wrapper">
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__top top">
+          <a href="/" class="top__logo">
+            <img width="174px" height="71px" class="header-logo" src="./img/icons/icons.svg#header-logo" alt="header-logo">
+          </a>
+          <div class="top__info info">
+            <div class="info__time">
+              <div class="info__time-icon">
+              <img width="24px" height="24px" class="time-icon-img" src="./img/icons/icons.svg#header-icon-1" alt="icon-time">
+            </div>
+            <div class="info__time-desc">
+              <p class="info__time-desc-text-1">BOARDING HOURS</p>
+              <p class="info__time-desc-text-2">Mon - Sat: 7:00 am - 6:00 pm</p>
+            </div>
+          </div>
+            <div class="info__phone">
+              <div class="info__phone-icon">
+                <img width="24px" height="24px" class="phone-icon-img" src="./img/icons/icons.svg#header-icon-2" alt="icon-phone">                
+              </div>
+              <div class="info__phone-desc">
+                <p class="info__phone-desc-text">CALL US</p>
+                <a href="tel:555" class="info__phone-desc-tel">(555) Pup-Cares</a>
+              </div>
+            </div>
+          </div>
+          <a href="#!" class="btn-header btn">
+           Make an Appointment
+          </a>
+        </div>
+      
+        <div class="header__bottom">
+        <div class="header__menu menu">
+          <nav role="navigation" class="menu__nav">
+            <div id="burger-container" class="burger__container" >
+              <input id="close-input" class="menu__close" type="checkbox">
+              <span class="burger__line burger-first-line"></span>
+              <span class="burger__line burger-second-line"></span>
+              <span class="burger__line burger-third-line"></span>
+            <ul id="menu" class="menu__list">
+              <li id="sub-list" class="menu__item">
+                <a class="menu__link"href="#!">Services</a>
+                <button id="sub-btn" class="menu__arrow" type="submit">
+                  <img width="24px" height="16px" class="arrow-icon" src="./img/icons/icons.svg#arrow-icon" alt="arrow-icon">
+                </button>
+                <ul class="menu__sub-list">
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#1">Pet Boarding (No Cages)</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#2">Pet Daycare</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#3">Pet Day Spa & Grooming</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#4">Custom Meal Plans</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#5">Pet Training</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#6">Shop Our Store!</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link"href="#specials">Specials</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link"href="#facilites">Facilities</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link"href="#reviews">Reviews</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link"href="#!">Shop</a>
+                <button data-spoller class="menu__arrow" type="button">
+                  <img width="24px" height="16px" class="arrow-icon" src="./img/icons/icons.svg#arrow-icon" alt="arrow-icon">
+                </button>
+                <ul class="menu__sub-list">
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#!">Product #1</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#!">Product #2</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#!">Product #3</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#!">Product #4</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#!">Product #5</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link" href="#!">Product #6</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link"href="#about">About</a>
+              </li>
+            </ul>
+          </div>
+          </nav>
+        </div>
+      
+          <div class="search__form">
+            <form action="#!" class="search__form-item">
+              <input autocomplete="off" type="text" name="form[]" placeholder="Search..." class="search__form-input">
+              <button type="submit" class="search__form-btn">
+                <svg display="none">
+                <symbol viewBox="0 0 24 24" id="nav-icon-1">
+                  <g>
+                  <path d="M14.965 14.255h.79l4.99 5-1.49 1.49-5-4.99v-.79l-.27-.28a6.471 6.471 0 0 1-4.23 1.57 6.5 6.5 0 1 1 6.5-6.5c0 1.61-.59 3.09-1.57 4.23l.28.27Zm-9.71-4.5c0 
+                  2.49 2.01 4.5 4.5 4.5s4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5-4.5 2.01-4.5 4.5Z"/>
+                </g>
+                </symbol>
+                </svg>
+                <svg width="30px" height="30px" class="search__form-icon-img">
+                  <use xlink:href="#nav-icon-1"></use>
+                </svg>
+                </button>
+            </form>
+          </div>
+        <div class="header__shop">
+          <a href="#!" class="shop__icon">
+
+            <svg display="none">
+            <symbol viewBox="0 0 22 20" id="nav-icon-2">
+              <g>
+              <path d="M17.296 9.97c-.34.62-1 1.03-1.75 1.03h-7.45l-1.1 2h12v2h-12c-1.52 0-2.48-1.63-1.75-2.97l1.35-2.44L2.996 2h-2V0h3.27l.94 2h14.8c.76 0 1.24.82.87 1.48l-3.58 6.49ZM18.306 4H6.156l2.37 5h7.02l2.76-5ZM6.996 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2Zm8.01 2c0-1.1.89-2 1.99-2s2 .9 2 2-.9 2-2 2-1.99-.9-1.99-2Z"/>
+            </g>
+            </symbol>
+          </svg>
+            <svg width="26px" height="26px" class="shop__icon-img">
+              <use xlink:href="#nav-icon-2"></use>
+            </svg>
+            <span class="shop__bye">1</span>
+          </a>
+          <div class="shop__body">
+            <ul class="shop__list list-shop"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <!---------- header end ---------->
+ <main>
+ <!---------- intro start ---------->
+<section class="intro">
+      <div class="container">
+        <div class="intro__inner">
+        <div class="intro__desc">
+          <h1 class="intro__desc-title">
+            Premier dog boarding, daycare & day spa
+          </h1>
+          <a href="#!" class="intro__desc-btn btn">
+            Make an Appointment
+          </a>
+        </div>
+        <div class="intro__point">
+          <img width="300px" height="300px" class="intro__point-img" src="./img/icons/icons.svg#img-point-1" alt="img-point">
+        </div>
+      </div>
+      </div>
+    </section>
+     <!---------- intro end ---------->
+    <!---------- we-are start ---------->
+    <section id="about" class="we-are">
+      <div class="container">
+        <div class="we-are__inner">
+          <div class="we-are__desc">
+            <div class="we-are__desc-pre">
+            <div class="we-are__desc-pre-pic">
+              <img width="30px" height="30px" class="we-are__desc-pre-icon" src="./img/icons/icons.svg#paragraph-icon-white" alt="paragraph-icon">
+            </div>
+            <h3 class="we-are__desc-pre-title">
+              WHO WE ARE
+            </h3>
+          </div>
+            <h2 class="we-are__desc-title">
+              Nemo enim ipsam voluptatem quia voluptas in proident
+            </h2>
+            <p class="we-are__desc-text">
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit 
+              laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure 
+              reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+              vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+            </p>
+          </div>
+            <div class="we-are__img-blob">
+              <img class="we-are__img-blob-pic" src="./img/img-blob-blue-1.png" alt="img-blob">
+              </div>
+
+            <div class="we-are__img-dog">
+              <img class="we-are__img-dog-pic" src="./img/we-img.jpg" alt="img-dog">
+            </div>
+        </div>
+        </div>
+    </section>
+     <!---------- we-are end ---------->
+    
+     <!---------- promise start ---------->
+     <section id="specials" class="promise">
+      <div class="container">
+        <div class="promise__inner">
+          <div class="promise__titles">
+            <div class="promise__titles-pre">
+            <div class="promise__titles-pre-pic">
+              <img width="30px" height="30px" class="promise__titles-pre-icon" src="./img/icons/icons.svg#paragraph-icon-blue" alt="paragraph-icon">
+            </div>
+            <h3 class="promise__titles-pre-title">
+              OUR PROMISE TO YOU
+            </h3>
+          </div>
+            <h2 class="promise__titles-title">
+              Sed perspiciatis omnis iste natus
+            </h2>
+          </div>
+          
+          <div class="promise__desc">
+            <div class="promise__desc-card promise__card-1">
+              <div class="promise__desc-card-icon">
+                <img width="63px" height="64px" class="promise__desc-card-icon-img" src="./img/icons/icons.svg#promise-icon-1" alt="promise--icon">
+              </div>
+              <div class="promise__desc-card-content">
+                <h4 class="promise__desc-card-content-title">
+                  24/7 Love & Care
+                </h4>
+                <p class="promise__desc-card-content-text">
+                  At vero eos et accusamus et iusto
+                  odio dignissimos ducimus qui blanditiis
+                  praesentium corrupti quos dolores et quas.
+                </p>
+              </div>
+            </div>
+
+              <div class="promise__desc-card promise__card-2">
+                <div class="promise__desc-card-icon">
+                  <img width="63px" height="64px" class="promise__desc-card-icon-img" src="./img/icons/icons.svg#promise-icon-2" alt="promise--icon">
+                </div>
+                <div class="promise__desc-card-content">
+                  <h4 class="promise__desc-card-content-title">
+                    On-site Veterinarian
+                  </h4>
+                  <p class="promise__desc-card-content-text">
+                  Dolorem ipsum quia dolor sit amet, consectetur,
+                  adipisci velit, sed quia
+                  non numquam eius modi tempora incidunt.
+                  </p>
+                </div>
+              </div>
+
+                <div class="promise__desc-card promise__card-3">
+                  <div class="promise__desc-card-icon">
+                    <img width="63px" height="64px" class="promise__desc-card-icon-img" src="./img/icons/icons.svg#promise-icon-3" alt="promise--icon">
+                  </div>
+                  <div class="promise__desc-card-content">
+                    <h4 class="promise__desc-card-content-title">
+                    Live-stream Cameras
+                    </h4>
+                    <p class="promise__desc-card-content-text">
+                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                    esse quam nihil molestiae consequatur illum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+      </div>
+      </div>
+     </section>
+    <!---------- promise end ---------->
+        <!---------- dog start ---------->
+    <section class="dog">
+      <div class="dog__container">
+        <div class="dog__inner">
+        <div class="dog__img-one">
+          <div class="dog__img-blob">
+            <img class="dog__img-blob-pic" src="./img/img-blob-green-dog.png" alt="blob-green">
+          </div>
+          <div class="dog__img-point">
+            <img width="300px" height="317px" class="dog__img-point-pic" src="./img/icons/icons.svg#img-point-dog" alt="img-point-dog">
+          </div>
+          <div class="dog__img-dog">
+            <img class="dog__img-dog-pic" src="./img/dog-img.png" alt="dog-img">
+          </div>
+        </div>
+      <div class="dog__img-two">
+        <div class="dog__img-line">
+          <img class="dog__img-dog-pic" src="./img/line-img.png" alt="dog-img">
+        </div>
+        <div class="dog__img-ball">
+          <img class="dog__img-ball-pic" src="./img/ball-img.png" alt="ball-img">
+        </div>
+        <div class="dog__img-desc">
+        <h2 class="dog__img-desc-title">
+          Nemo enim ipsam voluptatem quia voluptas in proident
+        </h2>
+      
+        <a href="#!" class="dog__img-desc-btn btn">
+          Make an Appointment
+        </a>
+      </div>
+      
+      </div>
+    </div>
+    </div>
+    </section>
+        <!---------- dog end ---------->
+
+  <!---------- services start ---------->
+  <section id="services"  class="services">
+    <div class="container">
+      <div class="services__blob">
+        <img class="services__blob-img" src="./img/blob-img-1.png" alt="img-blob">
+        </div>
+      <div class="services__inner">
+    <div class="services__titles">
+      <div class="services__titles-pre">
+      <div class="services__titles-pre-pic">
+        <img width="30px" height="30px" class="services__titles-pre-icon" src="./img/icons/icons.svg#paragraph-icon-blue" alt="paragraph-icon">
+      </div>
+      <h3 class="services__titles-pre-title">
+        OUR SERVICES
+      </h3>
+    </div>
+  </div>
+  <h2 class="services__titles-title">
+    Sed perspiciatis omnis iste natus
+  </h2>
+<ul class="services__cards">
+
+  <li id="1" class="service__link" >
+  <div class="service__card" data-link="#!1">
+    <div class="service__card-icon">
+    <img width="63px" height="64px" class="service__card-icon-img" src="./img/icons/icons.svg#service-icon-1" alt="service-icon">
+  </div>
+  <div class="service__card-content">
+    <h4 class="service__card-content-title">
+      Pet Boarding (No Cages)
+    </h4>
+    <p class="service__card-content-text">
+      At vero eos et accusamus et iusto odio dignissimos ducimus
+      qui blanditiis praesentium corrupti quos dolores et quas.
+    </p>
+  </div>
+  </div>
+</li>
+
+<li id="2" href="#!" class="service__link">
+  <div class="service__card"  data-link="#!2">
+    <div class="service__card-icon">
+    <img width="63px" height="64px" class="service__card-icon-img" src="./img/icons/icons.svg#service-icon-2" alt="service-icon">
+  </div>
+  <div class="service__card-content">
+    <h4 class="service__card-content-title">
+      Pet Daycare
+    </h4>
+    <p class="service__card-content-text">
+      At vero eos et accusamus et iusto odio dignissimos ducimus
+      qui blanditiis praesentium corrupti quos dolores et quas.
+    </p>
+  </div>
+  </div>
+</li>
+
+<li id="3" href="" class="service__link">
+  <div class="service__card" data-link="#!3">
+    <div class="service__card-icon">
+    <img width="63px" height="64px" class="service__card-icon-img" src="./img/icons/icons.svg#service-icon-3" alt="service-icon">
+  </div>
+  <div class="service__card-content">
+    <h4 class="service__card-content-title">
+      Pet Day Spa & Grooming
+    </h4>
+    <p class="service__card-content-text">
+      At vero eos et accusamus et iusto odio dignissimos ducimus
+      qui blanditiis praesentium corrupti quos dolores et quas.
+    </p>
+  </div>
+  </div>
+</li>
+
+<li id="4" href="#!" class="service__link">
+  <div class="service__card"  data-link="#!4">
+    <div class="service__card-icon">
+    <img width="63px" height="64px" class="service__card-icon-img" src="./img/icons/icons.svg#service-icon-4" alt="service-icon">
+  </div>
+  <div class="service__card-content">
+    <h4 class="service__card-content-title">
+      Custom Meal Plans
+    </h4>
+    <p class="service__card-content-text">
+      At vero eos et accusamus et iusto odio dignissimos ducimus
+      qui blanditiis praesentium corrupti quos dolores et quas.
+    </p>
+  </div>
+  </div>
+</li>
+
+<li id="5" href="#!" class="service__link">
+  <div class="service__card"  data-link="#!5">
+    <div class="service__card-icon">
+    <img width="63px" height="64px" class="service__card-icon-img" src="./img/icons/icons.svg#service-icon-5" alt="service-icon">
+  </div>
+  <div class="service__card-content">
+    <h4 class="service__card-content-title">
+      Pet Training
+    </h4>
+    <p class="service__card-content-text">
+      At vero eos et accusamus et iusto odio dignissimos ducimus
+      qui blanditiis praesentium corrupti quos dolores et quas.
+    </p>
+  </div>
+  </div>
+</li>
+
+<li id="6" href="#!" class="service__link">
+  <div class="service__card"  data-link="#!6">
+    <div class="service__card-icon">
+    <img width="63px" height="64px" class="service__card-icon-img" src="./img/icons/icons.svg#service-icon-6" alt="service-icon">
+  </div>
+  <div class="service__card-content">
+    <h4 class="service__card-content-title">
+      Shop Our Store!
+    </h4>
+    <p class="service__card-content-text">
+      At vero eos et accusamus et iusto odio dignissimos ducimus
+      qui blanditiis praesentium corrupti quos dolores et quas.
+    </p>
+  </div>
+  </div>
+</li>
+
+  </ul>
+  <div class="services__button">
+    <a id="btn" href="#!" class="services__btn btn">
+      Learn More
+    </a>
+  </div>
+</div>
+</div>
+</section>
+    <!---------- services end ---------->
+
+        <!---------- form start ---------->
+        <section class="form">
+          <div class="container">
+            <div class="form__inner">
+          <div class="form__make">
+            <h2 class="form__make-title">Make an appointment</h2>
+            <form action="#!" class="form__make-body form__area" method="get">
+              <div class="form__area-name">
+                <input class="form__area-name-input" tabindex="1" placeholder="Name" type="text" name="username">
+              </div>
+              <div class="form__area-email">
+                <input class="form__area-email-input" tabindex="2" placeholder="Email" type="email" name="useremail">
+              </div>
+              <div class="form__area-phone">
+                <input class="form__area-phone-input" tabindex="3" placeholder="Phone number" type="tel" name="userphone">
+              </div>
+              <div class="form__area-select" >
+              <select class="form__area-select-service" tabindex="4" name="service">
+                <option selected disabled class="form__area-select-service-option">Select Service</option>
+                <option class="form__area-select-service-option" value="Pet Boarding (No Cages)">Pet Boarding (No Cages)</option>
+                <option class="form__area-select-service-option" value="Pet Daycare">Pet Daycare</option>
+                <option class="form__area-select-service-option" value="Pet Day Spa & Grooming">Pet Day Spa & Grooming</option>
+                <option class="form__area-select-service-option" value="Custom Meal Plans">Custom Meal Plans</option>
+                <option class="form__area-select-service-option" value="Pet Training">Pet Training</option>
+                <option class="form__area-select-service-option" value="Shop Our Store!">Shop Our Store!</option>
+              </select>
+            </div>
+            <div class="form__area-write">
+              <textarea class="form__area-write-text" tabindex="5" placeholder="Tell us about your puppers include his/her name" name="text"></textarea>
+            </div>
+            <button class="form__area-btn btn"tabindex="6" type="submit">Make an Appointment</button>
+            </form>
+          </div>
+            
+          
+          <div class="form__counter">
+            <p class="form__counter-title">Maxime placeat facere possimus omnis</p>
+            <div class="form__counter-counterdown count">0</div>
+            <p class="form__counter-subtitle">customers served</p>
+          </div>
+          <div class="form__point-pic">
+            <img width="566px"; height="335px" class="form__point-pic-img" src="./img/icons/icons.svg#img-point-2" alt="img-point">
+          </div>
+          <div class="form__blob-pic">
+            <img class="form__blob-pic-img" src="./img/img-blob-blue-2.png" alt="img-blob">
+          </div>
+        </div>
+        </div>
+        </section>
+        <!---------- form end ---------->
+        
+        <!---------- gallery start ---------->
+        <section id="facilites" class="gallery">
+          <div class="container">
+            <div class="gallery__inner">
+              <div class="gallery__titles">
+            <div class="gallery__titles-pre">
+              <div class="gallery__titles-pre-pic">
+                <img width="30px" height="30px" class="gallery__titles-pre-icon" src="./img/icons/icons.svg#paragraph-icon-white" alt="paragraph-icon">
+              </div>
+              <h3 class="gallery__titles-pre-title">
+                GALLERY & LIVE STREAMS
+              </h3>
+            </div>
+            <h2 class="gallery__titles-title">
+              Check out our hard workers
+            </h2>
+          </div>
+            <div class="gallery__tabs">
+              <input class="gallery__tabs-nav-item-input" type="radio" name="live" id="live" value="">
+              <label class="gallery__tabs-nav-item" for="live">Gallery
+
+              </label>
+              <input class="gallery__tabs-nav-item-input" type="radio" name="live" id="live-1" value="" checked>
+              <label class="gallery__tabs-nav-item" for="live-1">Live stream: Yard 1
+                <span class="gallery__tabs-nav-active"></span>
+              </label>
+              <input class="gallery__tabs-nav-item-input" type="radio" name="live" id="live-2" value="">
+              <label class="gallery__tabs-nav-item" for="live-2">Live stream: Yard 2
+                <span class="gallery__tabs-nav-active"></span>
+              </label>
+              <input class="gallery__tabs-nav-item-input" type="radio" name="live" id="live-3" value="">
+              <label class="gallery__tabs-nav-item" for="live-3">Live stream: Yard 3
+                <span class="gallery__tabs-nav-active"></span>
+              </label>
+              <span class="gallery__tabs-line"></span>
+              
+                <div id="content-1" class="gallery__block swiper">
+                  <div class="gallery__wrapper swiper-wrapper">
+                    <div class="gallery__slider swiper-slide">
+                      <div class="gallery__slider-image">
+                    <img class="gallery__slider-image-img" src="./img/slider-img-1.jpg" alt="slider-img">
+                  </div>
+                  </div>
+                  <div class="gallery__slider swiper-slide">
+                    <div class="gallery__slider-image">
+                  <img class="gallery__slider-image-img" src="./img/slider-img-2.jpg" alt="slider-img">
+                </div>
+                </div>
+                <div class="gallery__slider swiper-slide">
+                  <div class="gallery__slider-image">
+                <img class="gallery__slider-image-img" src="./img/slider-img-3.jpg" alt="slider-img">
+              </div>
+              </div>
+              <div class="gallery__slider swiper-slide">
+                <div class="gallery__slider-image">
+              <img class="gallery__slider-image-img" src="./img/slider-img-4.jpg" alt="slider-img">
+            </div>
+            </div>
+            <div class="gallery__slider swiper-slide">
+              <div class="gallery__slider-image">
+            <img class="gallery__slider-image-img" src="./img/slider-img-5.jpg" alt="slider-img">
+          </div>
+          </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+ 
+              </div>
+              <div id="content-2" class="gallery__block">
+                <div class="gallery__block-image">
+                  <img class="gallery__block-image-img" src="./img/gallery-img-1.jpg" alt="slider-img">
+                  <span class="gallery__block-text">Live</span>
+                </div>
+              </div>
+              <div id="content-3" class="gallery__block">
+                <div class="gallery__block-image">
+                  <img class="gallery__block-image-img" src="./img/gallery-img-2.jpg" alt="slider-img">
+                  <span class="gallery__block-text">Live</span>
+                </div>
+              </div>
+              <div id="content-4" class="gallery__block">
+                <div class="gallery__block-image">
+                  <img class="gallery__block-image-img" src="./img/gellery-img-3.jpg" alt="slider-img">
+                  <span class="gallery__block-text">Live</span>
+                </div>
+            </div>
+
+
+          </div>
+          
+            </div>
+        </section>
+        <!---------- gallery end ---------->
+        
+        <!---------- customers start ---------->
+        <section id="reviews" class="customers">
+          <div class="container">
+            <div class="customers__blob">
+              <img class="customers__blob-img" src="./img/blob-img-2.png" alt="img-blob">
+              </div>
+            <div class="customers__inner">
+              <div class="customers__titles">
+            <div class="customers__titles-pre">
+              <div class="customers__titles-pre-pic">
+                <img width="30px" height="30px" class="customers__titles-pre-icon" src="./img/icons/icons.svg#paragraph-icon-blue" alt="paragraph-icon">
+              </div>
+              <h3 class="customers__titles-pre-title">
+                Our CUSTOMERS
+              </h3>
+            </div>
+            <h2 class="customers__titles-title">
+              Illum qui dolorem eum quo voluptas ut distinctio
+            </h2>
+          </div>
+          
+          <div class="customers__cards">
+            <div class="customers__card">
+              <div class="customers__card-review">
+                <p class="customers__card-review-text">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua.
+                  Ut enim illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore.”
+                </p>
+              </div>
+              <div class="customers__card-person">
+                <img width="48px" height="48px" class="customers__card-person-avatar" src="./img/icons/icons.svg#customer-1" alt="customer-avatar">
+                <p class="customers__card-person-name">
+                  Cullen Bohannon
+                </p>
+              </div>
+            </div>
+
+            <div class="customers__card">
+              <div class="customers__card-review">
+                <p class="customers__card-review-text">
+                  “Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                  eaque ipsa quae ab illo inventore veritatis et quasi ipsam voluptatem aspernatur.”
+                </p>
+              </div>
+              <div class="customers__card-person">
+                <img width="48px" height="48px" class="customers__card-person-avatar" src="./img/icons/icons.svg#customer-2" alt="customer-avatar">
+                <p class="customers__card-person-name">
+                  Jennifer Thomas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </section>
+
+      <!---------- customers end ---------->
+      
+      <!---------- impact start ---------->
+      <section class="impact">
+        <div class="container">
+          <div class="impact__inner">
+          <div class="impact__img">
+          <div class="impact__dog">
+            <img class="impact__dog-img" src="./img/impact-img.jpg" alt="impact-img">
+          </div>
+          <div class="impact__blob">
+            <img class="impact__blob-img" src="./img/img-blob-green.png" alt="impact-img">
+          </div>
+        </div>
+            <div class="impact__titles">
+          <div class="impact__titles-pre">
+            <div class="impact__titles-pre-pic">
+              <img width="30px" height="30px" class="impact__titles-pre-icon" src="./img/icons/icons.svg#paragraph-icon-white" alt="paragraph-icon">
+            </div>
+            <h3 class="impact__titles-pre-title">
+              OUR IMPACT
+            </h3>
+          </div>
+          <h2 class="impact__titles-title">
+            Nemo enim ipsam voluptatem quia voluptas
+          </h2>
+            </div>
+          <div class="impact__numbers">
+            <div class="impact__number">
+              <div class="impact__number-icon">
+                <img width="76px" height="76px" class="impact__number-icon-img" src="./img/icons/icons.svg#impact-icon-1" alt="impact-icon">
+              </div>
+              <div class="impact__number-content">
+              <span class="impact__number-count">3,700</span>
+              <span class="impact__number-subtitle">puppy baths</span>
+            </div>
+            </div>
+
+            <div class="impact__number">
+              <div class="impact__number-icon">
+                <img width="76px" height="76px" class="impact__number-icon-img" src="./img/icons/icons.svg#impact-icon-2" alt="impact-icon">
+              </div>
+              <div class="impact__number-content">
+              <span class="impact__number-count">4,500</span>
+              <span class="impact__number-subtitle">dogs boarded</span>
+            </div>
+            </div>
+
+            <div class="impact__number">
+              <div class="impact__number-icon">
+                <img width="76px" height="76px" class="impact__number-icon-img" src="./img/icons/icons.svg#impact-icon-3" alt="impact-icon">
+              </div>
+              <div class="impact__number-content">
+              <span class="impact__number-count">2,900</span>
+              <span class="impact__number-subtitle">pups trained</span>
+            </div>
+            </div>
+
+            <div class="impact__number">
+              <div class="impact__number-icon">
+                <img width="76px" height="76px" class="impact__number-icon-img" src="./img/icons/icons.svg#impact-icon-4" alt="impact-icon">
+              </div>
+              <div class="impact__number-content">
+              <span class="impact__number-count">12k+</span>
+              <span class="impact__number-subtitle">meals served</span>
+            </div>
+            </div>
+          </div>
+        </div>
+          <div class="impact__appointment">
+            <div class="impact__appointment-content">
+            <p class="impact__appointment-content-text">
+              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+            <a href="#!" class="impact__appointment-btn btn">
+              Make an Appointment
+            </a>
+          </div>
+        
+        </div>
+      </section>
+      <!---------- impact end ---------->
+  </main>
+<!---------- footer start ---------->
+ <footer class="footer">
+ <div class="container">
+  <div class="footer__inner">
+  <div class="footer__start">
+    <a href="#!" class="footer__start-logo">
+      <svg width="182" height="47" viewBox="0 0 182 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_1679_180)">
+        <path d="M54.3921 10.9878H58.7869V28.4306H54.3921V10.9878ZM60.5302 21.8446C60.5302 17.5307 63.2256 14.9567 67.3861 14.9567C71.5465 14.9567 74.2419 17.5307 74.2419 21.8446C74.2419 26.1586 71.6051 28.747 67.3861 28.747C63.167 28.747 60.5302 26.2305 60.5302 21.8446ZM69.8325 21.8446C69.8325 19.4719 68.8803 18.0771 67.3861 18.0771C65.8918 18.0771 64.9543 19.5151 64.9543 21.8446C64.9543 24.1742 65.8772 25.5834 67.3861 25.5834C68.8949 25.5834 69.8325 24.2605 69.8325 21.859V21.8446ZM75.8973 29.279H80.1163C80.3171 29.7169 80.6566 30.0794 81.0842 30.3126C81.5118 30.5458 82.0047 30.6372 82.4895 30.5732C84.1596 30.5732 85.0385 29.6817 85.0385 28.3875V25.9717H84.9506C84.6005 26.7121 84.0323 27.3325 83.3194 27.7529C82.6066 28.1732 81.7817 28.3742 80.9514 28.33C77.7431 28.33 75.619 25.9285 75.619 21.8015C75.619 17.6745 77.6406 15.0717 81.01 15.0717C81.8663 15.0387 82.7125 15.2635 83.4352 15.7158C84.1578 16.1681 84.7224 16.8265 85.0532 17.6026V15.2011H89.448V28.2868C89.448 31.436 86.6206 33.3917 82.4456 33.3917C78.5635 33.3917 76.1464 31.6805 75.8973 29.2934V29.279ZM85.0532 21.8302C85.0532 19.7308 84.0717 18.4078 82.5188 18.4078C80.966 18.4078 80.0138 19.7164 80.0138 21.8302C80.0138 23.9441 80.9514 25.1376 82.5188 25.1376C84.0863 25.1376 85.0532 23.9729 85.0532 21.8446V21.8302ZM91.1033 21.8302C91.1033 17.5163 93.7988 14.9423 97.9592 14.9423C102.12 14.9423 104.83 17.5163 104.83 21.8302C104.83 26.1442 102.193 28.7326 97.9592 28.7326C93.7256 28.7326 91.1033 26.2305 91.1033 21.8446V21.8302ZM100.406 21.8302C100.406 19.4576 99.4535 18.0627 97.9592 18.0627C96.465 18.0627 95.6007 19.5151 95.6007 21.859C95.6007 24.2029 96.5236 25.5978 98.0178 25.5978C99.5121 25.5978 100.406 24.2605 100.406 21.859V21.8302ZM106.5 12.0663C106.488 11.6307 106.609 11.2016 106.846 10.8334C107.083 10.4651 107.427 10.1743 107.832 9.99775C108.238 9.82122 108.688 9.76694 109.125 9.84179C109.563 9.91665 109.968 10.1173 110.288 10.4182C110.609 10.7191 110.832 11.1069 110.928 11.5322C111.025 11.9575 110.99 12.4014 110.829 12.8074C110.668 13.2134 110.388 13.5633 110.024 13.8129C109.66 14.0624 109.229 14.2002 108.785 14.2089C108.491 14.2287 108.196 14.1886 107.918 14.0911C107.64 13.9936 107.386 13.8408 107.172 13.6423C106.957 13.4438 106.787 13.2039 106.671 12.9376C106.555 12.6714 106.497 12.3845 106.5 12.0951V12.0663ZM106.5 15.2299H110.895V28.4306H106.5V15.2299ZM126.848 21.8302C126.848 26.1442 124.899 28.6032 121.559 28.6032C120.703 28.6572 119.85 28.4516 119.117 28.0144C118.383 27.5772 117.804 26.9294 117.458 26.1586H117.37V32.6583H112.975V15.2011H117.37V17.5594H117.458C117.788 16.7759 118.356 16.1112 119.084 15.6558C119.813 15.2004 120.667 14.9764 121.53 15.0142C124.899 15.0717 126.906 17.545 126.906 21.859L126.848 21.8302ZM122.453 21.8302C122.453 19.7308 121.471 18.3935 119.933 18.3935C118.395 18.3935 117.414 19.7452 117.399 21.8302C117.384 23.9153 118.395 25.2527 119.933 25.2527C121.471 25.2527 122.453 23.9441 122.453 21.859V21.8302ZM134.392 14.9279C138.04 14.9279 140.252 16.6247 140.354 19.3425H136.355C136.355 18.4078 135.564 17.8183 134.348 17.8183C133.132 17.8183 132.59 18.2784 132.59 18.9543C132.59 19.6301 133.074 19.8458 134.055 20.0471L136.868 20.608C139.549 21.1688 140.691 22.2329 140.691 24.2317C140.691 26.9639 138.157 28.7182 134.421 28.7182C130.686 28.7182 128.239 26.9639 128.049 24.2748H132.283C132.414 25.2527 133.206 25.8279 134.495 25.8279C135.784 25.8279 136.37 25.4108 136.37 24.7206C136.37 24.0304 135.96 23.8866 134.905 23.6709L132.371 23.1388C129.748 22.6068 128.371 21.2407 128.371 19.2275C128.401 16.6391 130.759 14.9567 134.392 14.9567V14.9279ZM155.355 28.4019H151.122V25.9429H151.034C150.801 26.7685 150.288 27.4911 149.579 27.9907C148.87 28.4903 148.008 28.7369 147.137 28.6895C146.469 28.7267 145.801 28.6229 145.178 28.3849C144.555 28.147 143.991 27.7804 143.524 27.3102C143.057 26.8399 142.699 26.2767 142.473 25.6588C142.247 25.0409 142.159 24.3826 142.215 23.7284V15.2011H146.61V22.7362C146.61 24.3036 147.43 25.1376 148.792 25.1376C149.112 25.1383 149.428 25.0719 149.719 24.9429C150.01 24.8139 150.27 24.6253 150.481 24.3897C150.692 24.1541 150.849 23.877 150.942 23.5769C151.035 23.2769 151.061 22.9608 151.019 22.6499V15.2011H155.414L155.355 28.4019ZM157.48 15.2011H161.728V17.7464H161.816C162.049 16.9317 162.551 16.216 163.243 15.7112C163.934 15.2064 164.777 14.941 165.639 14.9567C166.516 14.8877 167.387 15.1453 168.079 15.6782C168.772 16.2111 169.234 16.9803 169.375 17.8326H169.463C169.728 16.9712 170.279 16.221 171.027 15.7003C171.775 15.1796 172.678 14.918 173.594 14.9567C174.191 14.9369 174.787 15.0409 175.341 15.2617C175.895 15.4826 176.395 15.8154 176.81 16.2385C177.224 16.6616 177.543 17.1656 177.747 17.7177C177.95 18.2699 178.032 18.8577 177.989 19.4432V28.4306H173.594V20.5936C173.594 19.1556 172.935 18.4941 171.704 18.4941C171.43 18.4918 171.158 18.5473 170.907 18.6569C170.657 18.7665 170.433 18.9276 170.251 19.1293C170.069 19.331 169.933 19.5686 169.853 19.8262C169.773 20.0838 169.749 20.3552 169.785 20.6223V28.4306H165.61V20.5361C165.61 19.2131 164.951 18.4941 163.749 18.4941C163.472 18.4942 163.198 18.552 162.944 18.6638C162.691 18.7756 162.465 18.9388 162.281 19.1426C162.097 19.3465 161.959 19.5863 161.876 19.8463C161.794 20.1063 161.768 20.3806 161.801 20.6511V28.4306H157.406L157.48 15.2011Z" fill="#4B4B4B"/>
+        <path d="M42.1013 11.7788C41.3558 10.1055 40.3691 8.54614 39.1715 7.14851C37.401 5.02077 35.1916 3.2852 32.6886 2.05602C30.1857 0.826844 27.4459 0.131934 24.6496 0.0170269C21.8533 -0.0978801 19.0639 0.369818 16.465 1.38935C13.8661 2.40887 11.5167 3.95711 9.57129 5.93216C7.62589 7.9072 6.12865 10.2643 5.17813 12.8482C4.2276 15.4322 3.84534 18.1845 4.05649 20.9239C4.26765 23.6634 5.06744 26.3278 6.40323 28.742C7.73901 31.1562 9.5805 33.2653 11.8065 34.9305C13.2348 36.0203 14.8131 36.9063 16.4943 37.562C18.8514 38.5102 21.3741 38.9986 23.9215 39C29.1797 38.9886 34.2189 36.9311 37.9343 33.2787C41.6497 29.6262 43.7382 24.6768 43.7421 19.5152C43.7459 16.8528 43.1873 14.2186 42.1013 11.7788ZM23.9069 3.97055C26.1944 3.97031 28.4544 4.4611 30.5284 5.40854C30.0226 5.62304 29.4909 5.77286 28.9462 5.85432C27.154 6.10898 25.4938 6.92573 24.2133 8.18267C22.9328 9.43961 22.1007 11.0693 21.8413 12.8286C21.7274 13.8152 21.2703 14.7331 20.547 15.4273C19.8238 16.1215 18.8787 16.5496 17.8713 16.6392C16.0791 16.8939 14.4189 17.7107 13.1384 18.9676C11.8579 20.2245 11.0258 21.8543 10.7664 23.6135C10.6786 24.5516 10.2708 25.4332 9.6091 26.1156C8.46741 23.7476 7.95453 21.1346 8.11819 18.5197C8.28186 15.9049 9.11673 13.3731 10.5451 11.1601C11.9736 8.94714 13.9491 7.12481 16.2878 5.86273C18.6266 4.60064 21.2526 3.93983 23.9215 3.94179L23.9069 3.97055ZM11.7919 29.5812C11.9676 29.423 12.1434 29.2792 12.3192 29.1066C13.6225 27.8663 14.4591 26.229 14.6924 24.4619C14.787 23.4686 15.2388 22.5408 15.9669 21.8448C16.6675 21.1289 17.6105 20.6891 18.6184 20.6081C20.4107 20.3534 22.0709 19.5367 23.3514 18.2797C24.6319 17.0228 25.4639 15.3931 25.7234 13.6338C25.7867 12.5949 26.2409 11.6161 26.9979 10.8873C27.7158 10.1853 28.6678 9.76149 29.6787 9.69375C31.3252 9.47138 32.8607 8.7529 34.0735 7.63743C35.4544 8.76204 36.6244 10.1149 37.5307 11.635C37.4751 11.7089 37.4112 11.7764 37.3403 11.8364C36.641 12.5585 35.6992 13.008 34.6888 13.1018C32.8947 13.352 31.232 14.1673 29.9506 15.4251C28.6693 16.6828 27.8387 18.315 27.5838 20.076C27.4806 21.066 27.0319 21.9905 26.3137 22.6928C25.5955 23.3952 24.652 23.8322 23.6432 23.9299C21.8457 24.1826 20.1793 24.9977 18.8914 26.2541C17.6035 27.5106 16.7628 29.1413 16.4943 30.9041C16.4154 31.6069 16.1696 32.2817 15.7765 32.8742C14.2734 31.9982 12.9273 30.8857 11.7919 29.5812ZM23.9069 35.1318C22.4203 35.1334 20.941 34.9301 19.5121 34.5278C20.0008 33.6334 20.3186 32.6587 20.4496 31.6519C20.5523 30.6641 20.9989 29.7414 21.7141 29.0393C22.4293 28.3372 23.3694 27.8988 24.3756 27.7981C26.1705 27.5463 27.8341 26.7308 29.1174 25.4736C30.4008 24.2164 31.235 22.5851 31.4952 20.8238C31.5979 19.8361 32.0445 18.9133 32.7597 18.2112C33.4749 17.5092 34.415 17.0708 35.4212 16.97C36.7719 16.7975 38.0593 16.3039 39.1715 15.532C39.789 17.8298 39.8622 20.2359 39.3853 22.5657C38.9085 24.8955 37.8942 27.0872 36.4205 28.9725C34.9468 30.8579 33.0527 32.3868 30.8835 33.442C28.7143 34.4972 26.3278 35.0507 23.9069 35.0599V35.1318Z" fill="#4B4B4B"/>
+        </g>
+        <defs>
+        <filter id="filter0_d_1679_180" x="0" y="0" width="182" height="47" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feComposite in2="hardAlpha" operator="out"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1679_180"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1679_180" result="shape"/>
+        </filter>
+        </defs>
+        </svg>
+    </a>
+    <div class="footer__start-content">
+      <p class="footer__start-content-text">
+        This is a blurb about the company sed do
+        eiusmod tempor incididunt ut labore et dolore ex magna aliqua.
+      </p>
+    </div>
+    <ul class="footer__start-social">
+      <li class="footer__start-social-item">
+        <a href="#!" class="footer__start-social-item-link">
+          <svg display="none">
+            <symbol viewBox="0 0 24 24" id="footer-icon-facebook">
+              <g>
+                <path d="M17 2v4h-2c-.69 0-1 .81-1 1.5V10h3v4h-3v8h-4v-8H7v-4h3V6a4 4 0 0 1 4-4h3Z"/>
+                </g>
+                </symbol>
+          </svg>
+            <svg width="24px" height="24px" class="footer__start-social-item-link-icon">
+              <use xlink:href="#footer-icon-facebook"></use>
+            </svg>
+        </a>
+      </li>
+      <li class="footer__start-social-item">
+        <a href="#!" class="footer__start-social-item-link">
+          <svg display="none">
+            <symbol viewBox="0 0 24 24" id="footer-icon-twitter">
+              <g>
+                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23Z"/>
+                </g>
+                </symbol>
+          </svg>
+            <svg width="24px" height="24px" class="footer__start-social-item-link-icon">
+              <use xlink:href="#footer-icon-twitter"></use>
+            </svg>
+        </a>
+      </li>
+      <li class="footer__start-social-item">
+          <a href="#!" class="footer__start-social-item-link">
+            <svg display="none">
+              <symbol viewBox="0 0 18 18" id="footer-icon-instagram">
+                <g>
+                  <path d="M13.033 0H4.966A4.973 4.973 0 0 0 0 4.967v8.066A4.973 4.973 0 0 0 4.967 18h8.066A4.973 4.973 0 0 0 18 13.033V4.967A4.973 4.973 0 0 0 13.033 0Zm3.37 13.033a3.374 3.374 0 0 1-3.37 3.37H4.967a3.374 3.374 0 0 1-3.37-3.37V4.967a3.374 3.374 0 0 1 3.37-3.37h8.066a3.374 3.374 0 0 1 3.37 3.37v8.066Z"/>
+                  <path d="M9 4.362A4.643 4.643 0 0 0 4.362 9 4.643 4.643 0 0 0 9 13.638 4.643 4.643 0 0 0 13.638 9 4.643 4.643 0 0 0 9 4.362Zm0 7.679a3.044 3.044 0 0 1-3.041-3.04A3.045 3.045 0 0 1 9 5.958 3.045 3.045 0 0 1 12.041 9 3.044 3.044 0 0 1 9 12.041ZM13.833 3.008a1.176 1.176 0 0 0-1.171 1.171c0 .308.125.61.343.828.218.218.52.343.828.343.308 0 .61-.125.828-.343a1.176 1.176 0 0 0 0-1.657 1.176 1.176 0 0 0-.828-.342Z"/>
+                </g>
+                </symbol>
+            </svg>
+              <svg width="20px" height="20px" class="footer__start-social-item-link-icon">
+                <use xlink:href="#footer-icon-instagram"></use>
+              </svg>
+        </a>
+      </li>
+      <li class="footer__start-social-item">
+        <a href="#!" class="footer__start-social-item-link">
+          <svg display="none">
+            <symbol viewBox="0 0 20 14" id="footer-icon-youtube">
+              <g>
+                <path d="m8 10 5.19-3L8 4v6Zm11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L20 7c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L10 14c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L0 7c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73C2.64.31 3.5.22 4.82.16c1.3-.07 2.49-.1 3.59-.1L10 0c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73Z"/>
+              </g>
+              </symbol>
+          </svg>
+            <svg width="24px" height="24px" class="footer__start-social-item-link-icon">
+              <use xlink:href="#footer-icon-youtube"></use>
+            </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer__nav">
+    <h3 class="footer__nav-title">
+      EXPLORE LINKS
+    </h3>
+    <nav class="footer__nav-lists">
+    <ul class="footer__nav-one">
+      <li class="footer__nav-one-item">
+        <a href="#about" class="footer__nav-one-item-link">
+          About
+        </a>
+      <li class="footer__nav-one-item">
+        <a href="#services" class="footer__nav-one-item-link">
+          Services
+        </a>
+      <li class="footer__nav-one-item">
+        <a href="#specials" class="footer__nav-one-item-link">
+          Specials
+        </a>
+      <li class="footer__nav-one-item">
+        <a href="" class="footer__nav-one-item-link">
+          Estimates
+        </a>
+    </ul>
+    <ul class="footer__nav-two">
+      <li class="footer__nav-two-item">
+        <a href="#reviews" class="footer__nav-two-item-link">
+          Reviews
+        </a>
+      <li class="footer__nav-two-item">
+        <a href="#!" class="footer__nav-two-item-link">
+          Shop
+        </a>
+      <li class="footer__nav-two-item">
+        <a href="#!" class="footer__nav-two-item-link">
+          Careers
+        </a>
+      <li class="footer__nav-two-item">
+        <a href="#!" class="footer__nav-two-item-link">
+          FAQs
+        </a>
+    </ul>
+  </nav>
+  </div>
+  <div class="footer__contact">
+    <h3 class="footer__contact-title">
+      CONTACT
+    </h3>
+    <nav class="footer__contact-nav">
+    <ul class="footer__contact-list">
+      <li class="footer__contact-list-item">
+        <div href="#!" class="footer__contact-list-item-icon">
+          <img width="16px" height="16px" class="footer__contact-list-item-link-icon-img" src="./img/icons/icons.svg#footer-icon-contact-1" alt="footer-icon-contact">
+        </div>
+          <span class="footer__contact-list-item-content">
+            321 Pikes Place Parkway Seattle, WA 54321
+          </span>
+      </li>
+      <li class="footer__contact-list-item">
+        <a href="tel:5557654321" class="footer__contact-list-item-link footer__contact-tel">
+          <img width="16px" height="16px" class="footer__contact-list-item-link-icon-img" src="./img/icons/icons.svg#footer-icon-contact-2" alt="footer-icon-contact">
+          <span class="footer__contact-list-item-link-info">
+            (555) 765-4321
+          </span>
+        </a>
+      </li>
+      <li class="footer__contact-list-item">
+        <a href="#!" class="footer__contact-list-item-link footer__contact-mail">
+          <img width="16px" height="16px" class="footer__contact-list-item-link-icon-img" src="./img/icons/icons.svg#footer-icon-contact-3" alt="footer-icon-contact">
+          <span class="footer__contact-list-item-link-info">
+            Info@company.com
+          </span>
+        </a>
+      </li>
+      <li class="footer__contact-list-item">
+          <div class="footer__contact-list-item-link-icon">
+          <img width="16px" height="16px" class="footer__contact-list-item-link-icon-img" src="./img/icons/icons.svg#footer-icon-contact-4" alt="footer-icon-contact">
+        </div>
+        <span class="footer__contact-list-item-content">
+            Mon - Sat:  7:000 am - 6:00 pm
+        </span>
+        
+        
+      </li>
+    </ul>
+  </nav>
+  </div>
+</div>
+ </div>
+</footer>
+<footer class="footer__bottom">
+  <div class="container">
+    <div class="footer__bottom-inner">
+  <div class="footer__bottom-content">
+  <span class="footer__bottom-content-text">
+    Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod
+  </span>
+</div>
+<div class="footer__bottom-legal">
+  <span class="footer__bottom-legal-text">
+    © 2018 Company.
+  </span>
+  <a href="#!" class="footer__bottom-legal-link">
+    <span class="footer__bottom-legal-link-words">
+      <b>Privacy Policy</b>
+    </span>
+  </a> 
+  |
+  <a href="#!" class="footer__bottom-legal-link">
+    <span class="footer__bottom-legal-link-words">
+      <b>Terms & Conditions</b>
+    </span>
+  </a>
+</div>
+</div>
+</div>
+</footer> 
+    <!---------- footer end ---------->
+</div> 
+  <script src="js/app.min.js"></script>
+</body>
+</html>
