@@ -1179,7 +1179,6 @@ input {
   min-height: 340px;
   padding-top: 250px;
   padding-bottom: 250px;
-  position: relative;
   &__blob{
     position: absolute;
     bottom: -100px;
@@ -1225,16 +1224,37 @@ input {
   &__cards{
     display: grid;
     grid-template-columns: repeat(2, 324px);
-    grid-template-rows: repeat(1, 340px);
     gap: 0 24px;
   }
-  &__card{
-    background-color: $firstColor;
-    border-radius: 20px;
-    padding: 50px 44px 40px 43px;
+  &__block{
+    display: grid;
+    grid-template-rows: repeat(1, 50px 170px 90px);
   }
-  &__card-review{
-    margin-bottom: 30px;
+  &__top{
+    background-color: $firstColor;
+    border-radius: 20px 20px 0 0;
+  }
+  &__card{
+    overflow: auto;
+    background-color: $firstColor;
+    padding: 0 44px 0 43px;
+    scrollbar-color: #f34644 $firstColor;
+    scrollbar-width: thin;
+    &::-webkit-scrollbar {
+      width: 15px;
+    }
+    &::-webkit-scrollbar-track{
+      background-color: $firstColor;
+      border-radius: 4px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #5D62B5;
+      border-radius: 15px;
+      border: 3px solid $firstColor;
+      &:hover{
+        background-color:#f34644;
+      }
+  }
   }
   &__card-review-text{
     font-weight: 400;
@@ -1243,12 +1263,17 @@ input {
     color: $secondColor;
   }
   &__card-person{
+    left: auto;
     display: grid;
     grid-template-columns: auto;
     grid-auto-flow: column;
     align-items: center;
     justify-content: start;
     gap: 0 17px;
+    padding: 15px 44px 50px 43px;
+    background-color: $firstColor;
+    border-radius: 0 0 20px 20px;
+    z-index: 5;
   }
   &__card-person-name{
     font-weight: 700;
@@ -1256,7 +1281,6 @@ input {
     letter-spacing: 0.15px;
     color: $thirdColor;
   }
-
 }
 
 

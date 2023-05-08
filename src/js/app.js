@@ -3,8 +3,8 @@
 let is_animate = false;
 
 const limit = 5700;  /* максимальное число до которого ведётся счёт */
-const step  = 50;   /* количество на которое увеличивается счётчик за один раз*/
-const ms    = 90;    /* время за которое увеличивается число */
+const step  = 500;   /* количество на которое увеличивается счётчик за один раз*/
+const ms    = 50;    /* время за которое увеличивается число */
 
 document.body.addEventListener('scroll', ev => {
   const counter = document.querySelector('div.form__counter-counterdown.count');

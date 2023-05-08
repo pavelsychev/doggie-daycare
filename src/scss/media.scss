@@ -411,12 +411,13 @@
     }
     &__cards{
       grid-template-columns: repeat(1, 400px);
-      grid-template-rows: repeat(1, 340px);
       gap: 24px 0;
       justify-content: center;
     }
   }
 }
+
+
 @media (max-width: 850px){
 html,
 body{
@@ -884,6 +885,10 @@ body{
   .swiper-button-prev{
     left: 25px;
   }
+  .swiper-button-next::after,
+  .swiper-button-prev::after{
+    font-size: 20px;
+  }
   .customers{
     padding-top: 0;
     &__titles-pre-title{
@@ -895,8 +900,9 @@ body{
     &__cards{
       justify-content: center;
       grid-template-columns: repeat(1, 300px);
-      grid-template-rows: repeat(1, 340px);
-      gap: 24px 0;
+    }
+    &__block{
+      grid-template-rows: repeat(1, 50px 220px 90px);
     }
   }
   .impact{
