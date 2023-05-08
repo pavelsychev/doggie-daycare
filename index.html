@@ -469,17 +469,17 @@
             <h2 class="form__make-title">Make an appointment</h2>
             <form action="#!" class="form__make-body form__area" method="get">
               <div class="form__area-name">
-                <input class="form__area-name-input" tabindex="1" placeholder="Name" type="text" name="username">
+                <input required class="form__area-name-input" tabindex="1" placeholder="Name" type="text" name="username">
               </div>
               <div class="form__area-email">
-                <input class="form__area-email-input" tabindex="2" placeholder="Email" type="email" name="useremail">
+                <input required class="form__area-email-input" tabindex="2" placeholder="Email" type="email" name="useremail">
               </div>
               <div class="form__area-phone">
-                <input class="form__area-phone-input" tabindex="3" placeholder="Phone number" type="tel" name="userphone">
+                <input required class="form__area-phone-input" tabindex="3" placeholder="Phone number" type="tel" name="userphone">
               </div>
               <div class="form__area-select" >
-              <select class="form__area-select-service" tabindex="4" name="service">
-                <option selected disabled class="form__area-select-service-option">Select Service</option>
+              <select required class="form__area-select-service" tabindex="4" name="service">
+                <option value="" selected disabled class="form__area-select-service-option">Select Service</option>
                 <option class="form__area-select-service-option" value="Pet Boarding (No Cages)">Pet Boarding (No Cages)</option>
                 <option class="form__area-select-service-option" value="Pet Daycare">Pet Daycare</option>
                 <option class="form__area-select-service-option" value="Pet Day Spa & Grooming">Pet Day Spa & Grooming</option>
@@ -489,7 +489,7 @@
               </select>
             </div>
             <div class="form__area-write">
-              <textarea class="form__area-write-text" tabindex="5" placeholder="Tell us about your puppers include his/her name" name="text"></textarea>
+              <textarea required class="form__area-write-text" tabindex="5" placeholder="Tell us about your puppers include his/her name" name="text"></textarea>
             </div>
             <button class="form__area-btn btn"tabindex="6" type="submit">Make an Appointment</button>
             </form>
@@ -613,7 +613,7 @@
             <div class="customers__blob">
               <img class="customers__blob-img" src="./img/blob-img-2.png" alt="img-blob">
               </div>
-            <div class="customers__inner">
+            <di class="customers__inner">
               <div class="customers__titles">
             <div class="customers__titles-pre">
               <div class="customers__titles-pre-pic">
@@ -627,31 +627,32 @@
               Illum qui dolorem eum quo voluptas ut distinctio
             </h2>
           </div>
-          
           <div class="customers__cards">
+            <div class="customers__block">
+            <div class="customers__top"></div>
             <div class="customers__card">
               <div class="customers__card-review">
                 <p class="customers__card-review-text">
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua.
-                  Ut enim illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore.”
-                </p>
-              </div>
-              <div class="customers__card-person">
-                <img width="48px" height="48px" class="customers__card-person-avatar" src="./img/icons/icons.svg#customer-1" alt="customer-avatar">
-                <p class="customers__card-person-name">
-                  Cullen Bohannon
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua. Ut enim illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore.”
                 </p>
               </div>
             </div>
-
-            <div class="customers__card">
+            <div class="customers__card-person">
+              <img width="48px" height="48px" class="customers__card-person-avatar" src="./img/icons/icons.svg#customer-1" alt="customer-avatar">
+              <p class="customers__card-person-name">
+                Cullen Bohannon
+              </p>
+            </div>
+          </div>
+          <div class="customers__block">
+            <div class="customers__top"></div>
+            <div  class="customers__card">
               <div class="customers__card-review">
                 <p class="customers__card-review-text">
-                  “Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi ipsam voluptatem aspernatur.”
+                  “Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ipsam voluptatem aspernatur.”
                 </p>
               </div>
+            </div>
               <div class="customers__card-person">
                 <img width="48px" height="48px" class="customers__card-person-avatar" src="./img/icons/icons.svg#customer-2" alt="customer-avatar">
                 <p class="customers__card-person-name">
@@ -659,7 +660,8 @@
                 </p>
               </div>
             </div>
-          </div>
+                  </div>
+
         </div>
           </div>
         </section>
