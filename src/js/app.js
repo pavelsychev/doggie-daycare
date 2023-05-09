@@ -1,3 +1,22 @@
+/*плагин Swiper*/
+
+import Swiper, { Navigation, Pagination } from 'swiper';
+Swiper.use([Navigation, Pagination]);
+const swiper = new Swiper(".swiper", {
+     autoHeight: true,
+     slidesPerView: 1,
+     spaceBetween: 30,
+     loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+});
+
 /* Счетчик */
 
 let is_animate = false;
@@ -7,7 +26,7 @@ const step  = 500;   /* количество на которое увеличи�
 const ms    = 50;    /* время за которое увеличивается число */
 
 document.body.addEventListener('scroll', ev => {
-  const counter = document.querySelector('div.form__counter-counterdown.count');
+  const counter = document.querySelector('.count');
   const y = counter.getBoundingClientRect().top;
 
   /* 300 - значение от скольки начнется счет, когда элемент станет виден */
@@ -32,28 +51,9 @@ document.body.addEventListener('scroll', ev => {
 });
 
 
-/*плагин Swiper*/
-
-import Swiper, { Navigation, Pagination } from 'swiper';
-Swiper.use([Navigation, Pagination]);
-const swiper = new Swiper(".swiper", {
-     autoHeight: true,
-     slidesPerView: 1,
-     spaceBetween: 30,
-     loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-});
-
 /* Выбор service */
 
-const cards = document.querySelectorAll('div.service__card');
+const cards = document.querySelectorAll('.service__card');
 
 cards.forEach(card => {
   card.addEventListener('click', ev => {
